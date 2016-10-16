@@ -34,3 +34,6 @@ npm-debug.log
 
 # Working Files that are not checked instrumented
 working/
+
+# VS Code stuff that i currently don't want versioned
+.vscode
