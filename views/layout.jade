@@ -1,7 +1,15 @@
 doctype html
 html
   head
-    title= title
+    title Hourai - #{title}
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+body
+    header
+      h1 #{title}
+    .container
+      .main-content
+        block content
+      .sidebar
+        block sidebar
+      footer
+        p This site is owned an maintained by the Hourai Development Team, complaints can be filed against the github page at #[a(href="https://github.com/nwhansen/hourai") Hourai]  maintained by Nate Hansen.
